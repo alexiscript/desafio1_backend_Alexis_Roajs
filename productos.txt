@@ -12,7 +12,7 @@
 		"title": "titulo1",
 		"description": "descripcion1",
 		"price": 100,
-		"imagen": "imagen1",
+		"thumbnail": "imagen1",
 		"code": "abc1",
 		"stock": 10,
 		"id": 1

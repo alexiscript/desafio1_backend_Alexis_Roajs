@@ -8,14 +8,14 @@ class ProductManager {
 
     static id = 0;
 
-    async addProduct(title, description, price, imagen, code, stock) {
+    async addProduct(title, description, price, thumbnail , code, stock) {
         ProductManager.id++;
 
         let newProduct = {
             title,
             description,
             price,
-            imagen,
+            thumbnail,
             code,
             stock,
             id: ProductManager.id,
